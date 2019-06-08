@@ -1,5 +1,5 @@
 # dmoj_problems
-这是一个[dmoj](https://dmoj.ca)的爬虫程序，获取dmoj的题目信息，保存为dmoj的数据库格式，可以导入到使用dmoj搭建的oj系统。题目信息包括题目类型、题目分组和题目描述。题目的测试数据是无法爬取的，要真正可用还需要自己建立测试数据。
+这是一个[dmoj](https://dmoj.ca)的爬虫程序，获取dmoj的题目信息，保存为dmoj的数据库格式，可以导入到使用dmoj搭建的oj系统。题目信息包括题目类型、题目分组和题目描述。题目的测试数据是无法爬取的，要真正可用还需要自己建立测试数据。本爬虫程序仅供学习交流使用。
 
 
 
@@ -27,7 +27,7 @@
 
 # 使用方法
 
-1. 需要python3，因为requests-html只支持python3.6
+1. 需要使用python3
 
 2. 安装依赖的包： `pip install -r requirements.txt`
 
