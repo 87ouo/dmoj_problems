@@ -49,11 +49,11 @@
 
 1. 爬取并发任务数
 
-   在中国，dmoj的一些js采用了百度CDN，百度CDN进行了并发限制，一旦检测到并发过多，就会需要输入验证码才能访问，因此并发数必须设为1，默认的并发数也是1；
+   在中国，dmoj的一些js采用了百度CDN，百度CDN进行了并发限制，一旦检测到并发过多，就会需要输入验证码才能访问，因此并发数必须设为1，默认的并发数也是1。
 
 2. allowed_languages
 
-   生成的problems.json中的allowed_languages字段在代码中是写死了，需要根据情况修改。安装dmoj时采用`python manage.py loaddata language_small`初始化，language只有1到8，此时allowed_languages填写为`[1,2,3,4,5,6,7,8]`，我又增加了V8JS语言，因此代码中我填为`[1,2,3,4,5,6,7,8,9]`；
+   生成的problems.json中的allowed_languages字段在代码中是写死了，需要根据情况修改。安装dmoj时采用`python manage.py loaddata language_small`初始化，language只有1到8，此时allowed_languages填写为`[1,2,3,4,5,6,7,8]`，我又增加了V8JS语言，因此代码中我填为`[1,2,3,4,5,6,7,8,9]`。
 
 3. 时间字段
 
@@ -63,10 +63,13 @@
 
 
 
-
-
 # python小知识
 
 1. ThreadPoolExecutor使用`ctrl+c`退出问题
 
    使用`submit`时，先一次性提交所有任务，`ctrl+c`退出时会比较耗时；而使用`map`时，并非一次性先提交，`ctrl+c`退出时会比较快。
+
+2. ThreadPoolExecutor.map如何执行多参数线程函数
+
+   假设线程函数`def fun(param1, param2)`，那么`map(fun, [1,2],['a','b'])`表示执行两个任务`fun(1,'a')`和`fun(2,'b')`。
+
