@@ -5,10 +5,10 @@ import json
 import html2text
 from requests_html import HTMLSession  #py3
 #import pypandoc
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor
 import argparse
 import progressbar
-
+import logging
  
 class HTML2TextDmoj(html2text.HTML2Text):
     def __init__(self, out=None, baseurl=''):
@@ -83,23 +83,26 @@ def getproblemlist(base_url):
         response = requests.get(url)
         problem_list = json.loads(response.text)   
     except Exception as e:
-        print(e)
+        logging.critical(e)
     return problem_list
+    
+session = HTMLSession()    
+def getproblemdesc(base_url, problem_code):
+    url = "%s/problem/%s" % (base_url, problem_code)
+    r = session.get(url)
+    return r.html.find('#content-left > div.content-description.screen', first=True)
 
-session = HTMLSession()
 def getproblemdetail(base_url, problem_code):
     url = "%s/api/problem/info/%s" % (base_url, problem_code)
     reponse = requests.get(url)
     problem_info = json.loads(reponse.text)
-    url = "%s/problem/%s" % (base_url, problem_code)
-    response = session.get(url)
-    node = response.html.find('#content-left > div.content-description.screen', first=True)  
+    node = getproblemdesc(base_url, problem_code) 
     h = HTML2TextDmoj()
     problem_desc = ""
     if node:
         problem_desc = h.handle(node.html)
     else:
-        print("!error:problem %s desc emtpy." % problem_code)
+        logging.error("problem %s desc emtpy." % problem_code)
     #print(node.html)
     #print(h.handle(node.html))
     #print(pypandoc.convert_text(node.html, 'md', format='html'))
@@ -169,22 +172,27 @@ def getproblems(base_url, problem_code, task_num):
                     problemtypes.add(problemtype)
                 problemgroups.add(problem_info['group'])
         except KeyboardInterrupt:
-            print("\nstopped by user")
+            logging.info("\nstopped by user")
             return
         except Exception as e:
-            print(e)
+            logging.critical(e)
             return
         else:
             saveproblems(problemtypes, problemgroups, problems) 
             bar.finish()
 
+def getloglevel(loglevel):
+    return {'debug':logging.DEBUG,'info':logging.INFO,
+    'warning':logging.WARNING,'error':logging.ERROR,'critical':logging.CRITICAL}[loglevel]
 
 base_url = "https://dmoj.ca"
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--problem_code", "-c", help="Problem code to crawling, * for all", type=str, default="*")
     parser.add_argument("--task_num", "-n", help="Concurrent crawling of tasks", type=int, default=1)
+    parser.add_argument("--log_level", "-l", help="log level", type=str, choices=['debug','info','warning','error','critical'], default='warning')
     args = parser.parse_args()
+    logging.basicConfig(level=getloglevel(args.log_level))
     getproblems(base_url, args.problem_code, args.task_num)
     
     
