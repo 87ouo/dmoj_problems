@@ -60,3 +60,13 @@
    生成的problems.json中date字段填为一个带时区的时间，如果django的USE_TZ设为False，在执行`python manage.py loaddata`时就会报如下错误，需要将problems.json中的时间修改为不带时区的时间。
 
    > MySQL backend does not support timezone-aware datetimes when USE_TZ is False
+
+
+
+
+
+# python小知识
+
+1. ThreadPoolExecutor使用`ctrl+c`退出问题
+
+   使用`submit`时，先一次性提交所有任务，`ctrl+c`退出时会比较耗时；而使用`map`时，并非一次性先提交，`ctrl+c`退出时会比较快。
