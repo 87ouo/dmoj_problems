@@ -9,7 +9,7 @@
 
 1. markdown转换
 
-   html转markdown的方案中，有html2text和pypandoc两种可选。pypandoc更强大，支持各种文档类型之间的转换，但是dmoj中的嵌入式公式采用~包围，并非标准的$包围，采用pypandoc转换后使用的标准的$。html2text并不支持公式，但是扩展相对简单。因此最后采用html2text进行转换。
+   html转markdown的方案中，有html2text和pypandoc两种可选。pypandoc更强大，支持各种文档类型之间的转换，但是dmoj中的嵌入式公式采用\~包围，并非标准的\$包围，采用pypandoc转换后使用的标准的\$。html2text并不支持公式，但是扩展相对简单。因此最后采用html2text进行转换。
 
 2. LaTeX公式和svg提取
 
@@ -17,7 +17,7 @@
    
    * LaTeX公式
    
-     requests-html会进行js渲染，如果进行了js渲染，那么返回的html变成了math标签，这时公式字符串在annotation标签中，其他m*标签数据需要忽略，然后加上~包围；如果没有进行js渲染，那么返回的html直接是公式字符串（其中已经包含~），由html2text提取即可，此时只需要过滤掉服务端生成的公式svg，这个svg是为了客户端不支持公式渲染时使用的。
+     requests-html会进行js渲染，如果进行了js渲染，那么返回的html变成了math标签，这时公式字符串在annotation标签中，其他m*标签数据需要忽略，然后加上\~包围；如果没有进行js渲染，那么返回的html直接是公式字符串（其中已经包含\~），由html2text提取即可，此时只需要过滤掉服务端生成的公式svg，这个svg是为了客户端不支持公式渲染时使用的。
    
    * svg
    
