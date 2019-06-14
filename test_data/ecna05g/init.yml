@@ -1,0 +1,4 @@
+test_cases:
+- in: ecna05g.1.in
+  out: ecna05g.1.out
+  points: 10

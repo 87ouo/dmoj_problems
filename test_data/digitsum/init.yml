@@ -1,0 +1,4 @@
+test_cases:
+- in: digitsum.1.in
+  out: digitsum.1.out
+  points: 10

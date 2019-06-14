@@ -1,0 +1,4 @@
+test_cases:
+- in: mockingspongebob.1.in
+  out: mockingspongebob.1.out
+  points: 10

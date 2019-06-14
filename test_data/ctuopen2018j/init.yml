@@ -1,0 +1,7 @@
+test_cases:
+- in: ctuopen2018j.1.in
+  out: ctuopen2018j.1.out
+  points: 10
+- in: ctuopen2018j.2.in
+  out: ctuopen2018j.2.out
+  points: 10

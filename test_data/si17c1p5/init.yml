@@ -1,0 +1,10 @@
+test_cases:
+- in: si17c1p5.1.in
+  out: si17c1p5.1.out
+  points: 10
+- in: si17c1p5.2.in
+  out: si17c1p5.2.out
+  points: 10
+- in: si17c1p5.3.in
+  out: si17c1p5.3.out
+  points: 10

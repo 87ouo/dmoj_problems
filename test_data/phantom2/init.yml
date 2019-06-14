@@ -1,0 +1,4 @@
+test_cases:
+- in: phantom2.1.in
+  out: phantom2.1.out
+  points: 10

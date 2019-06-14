@@ -1,0 +1,4 @@
+test_cases:
+- in: mcco17p5.1.in
+  out: mcco17p5.1.out
+  points: 10

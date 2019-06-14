@@ -1,0 +1,5 @@
+This is a <a>sample link</a>.
+<a rel="" href="http://dwite.org/">link with rel</a>
+<a href="http://compsci.ca/" rel="nofollow">link with no follow</a>
+<a href="http://compsci.ca/blog" rel="external">more rels</a>
+text <a href="http://compsci.ca/v3/viewforum.php?f=131" title="">link</a> more text

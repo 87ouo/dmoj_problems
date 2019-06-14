@@ -1,0 +1,4 @@
+test_cases:
+- in: literatureclub.1.in
+  out: literatureclub.1.out
+  points: 10

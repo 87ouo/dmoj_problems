@@ -1,0 +1,7 @@
+test_cases:
+- in: rte16j3.1.in
+  out: rte16j3.1.out
+  points: 10
+- in: rte16j3.2.in
+  out: rte16j3.2.out
+  points: 10

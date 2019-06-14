@@ -1,0 +1,7 @@
+test_cases:
+- in: joi14p5.1.in
+  out: joi14p5.1.out
+  points: 10
+- in: joi14p5.2.in
+  out: joi14p5.2.out
+  points: 10

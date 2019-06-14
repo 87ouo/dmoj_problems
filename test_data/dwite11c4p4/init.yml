@@ -1,0 +1,4 @@
+test_cases:
+- in: dwite11c4p4.1.in
+  out: dwite11c4p4.1.out
+  points: 10

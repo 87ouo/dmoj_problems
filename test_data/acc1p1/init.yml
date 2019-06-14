@@ -1,0 +1,4 @@
+test_cases:
+- in: acc1p1.1.in
+  out: acc1p1.1.out
+  points: 10

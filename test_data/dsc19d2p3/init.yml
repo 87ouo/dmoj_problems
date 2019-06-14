@@ -1,0 +1,4 @@
+test_cases:
+- in: dsc19d2p3.1.in
+  out: dsc19d2p3.1.out
+  points: 10

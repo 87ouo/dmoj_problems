@@ -1,0 +1,4 @@
+test_cases:
+- in: 16bitswonly.1.in
+  out: 16bitswonly.1.out
+  points: 10

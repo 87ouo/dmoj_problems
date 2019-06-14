@@ -1,0 +1,10 @@
+test_cases:
+- in: anewcountry.1.in
+  out: anewcountry.1.out
+  points: 10
+- in: anewcountry.2.in
+  out: anewcountry.2.out
+  points: 10
+- in: anewcountry.3.in
+  out: anewcountry.3.out
+  points: 10

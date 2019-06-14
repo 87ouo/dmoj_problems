@@ -1,0 +1,7 @@
+test_cases:
+- in: rgss2.1.in
+  out: rgss2.1.out
+  points: 10
+- in: rgss2.2.in
+  out: rgss2.2.out
+  points: 10

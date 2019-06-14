@@ -1,0 +1,7 @@
+test_cases:
+- in: rgpc18p1.1.in
+  out: rgpc18p1.1.out
+  points: 10
+- in: rgpc18p1.2.in
+  out: rgpc18p1.2.out
+  points: 10

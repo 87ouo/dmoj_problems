@@ -1,0 +1,7 @@
+test_cases:
+- in: anoisyclass.1.in
+  out: anoisyclass.1.out
+  points: 10
+- in: anoisyclass.2.in
+  out: anoisyclass.2.out
+  points: 10

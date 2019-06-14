@@ -1,0 +1,4 @@
+test_cases:
+- in: thicc17p5.1.in
+  out: thicc17p5.1.out
+  points: 10

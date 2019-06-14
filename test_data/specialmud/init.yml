@@ -1,0 +1,4 @@
+test_cases:
+- in: specialmud.1.in
+  out: specialmud.1.out
+  points: 10

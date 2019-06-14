@@ -1,0 +1,10 @@
+test_cases:
+- in: year2015p5.1.in
+  out: year2015p5.1.out
+  points: 10
+- in: year2015p5.2.in
+  out: year2015p5.2.out
+  points: 10
+- in: year2015p5.3.in
+  out: year2015p5.3.out
+  points: 10

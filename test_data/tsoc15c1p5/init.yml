@@ -1,0 +1,7 @@
+test_cases:
+- in: tsoc15c1p5.1.in
+  out: tsoc15c1p5.1.out
+  points: 10
+- in: tsoc15c1p5.2.in
+  out: tsoc15c1p5.2.out
+  points: 10

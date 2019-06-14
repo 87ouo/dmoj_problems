@@ -1,0 +1,10 @@
+7
+p Waterloo Toronto
+q Waterloo Toronto
+p Dubai Toronto
+p Montreal Vancouver
+q Montreal Waterloo
+p Dubai Vancouver
+q Montreal Waterloo
+1
+q Waterloo Waterloo

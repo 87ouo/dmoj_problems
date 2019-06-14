@@ -1,0 +1,7 @@
+test_cases:
+- in: subtree1.1.in
+  out: subtree1.1.out
+  points: 10
+- in: subtree1.2.in
+  out: subtree1.2.out
+  points: 10

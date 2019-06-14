@@ -1,0 +1,4 @@
+test_cases:
+- in: aminusb.1.in
+  out: aminusb.1.out
+  points: 10

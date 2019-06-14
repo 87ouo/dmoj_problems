@@ -1,0 +1,4 @@
+test_cases:
+- in: pacnw16j.1.in
+  out: pacnw16j.1.out
+  points: 10

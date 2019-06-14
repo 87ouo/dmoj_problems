@@ -1,0 +1,4 @@
+test_cases:
+- in: miniaturesudoku.1.in
+  out: miniaturesudoku.1.out
+  points: 10

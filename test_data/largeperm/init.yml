@@ -1,0 +1,10 @@
+test_cases:
+- in: largeperm.1.in
+  out: largeperm.1.out
+  points: 10
+- in: largeperm.2.in
+  out: largeperm.2.out
+  points: 10
+- in: largeperm.3.in
+  out: largeperm.3.out
+  points: 10

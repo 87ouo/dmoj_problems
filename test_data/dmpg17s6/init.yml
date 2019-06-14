@@ -1,0 +1,10 @@
+test_cases:
+- in: dmpg17s6.1.in
+  out: dmpg17s6.1.out
+  points: 10
+- in: dmpg17s6.2.in
+  out: dmpg17s6.2.out
+  points: 10
+- in: dmpg17s6.3.in
+  out: dmpg17s6.3.out
+  points: 10

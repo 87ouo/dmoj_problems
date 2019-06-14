@@ -1,0 +1,7 @@
+test_cases:
+- in: ds5easy.1.in
+  out: ds5easy.1.out
+  points: 10
+- in: ds5easy.2.in
+  out: ds5easy.2.out
+  points: 10

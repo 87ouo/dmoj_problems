@@ -1,0 +1,4 @@
+test_cases:
+- in: atimesb.1.in
+  out: atimesb.1.out
+  points: 10

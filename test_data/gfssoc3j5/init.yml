@@ -1,0 +1,4 @@
+test_cases:
+- in: gfssoc3j5.1.in
+  out: gfssoc3j5.1.out
+  points: 10

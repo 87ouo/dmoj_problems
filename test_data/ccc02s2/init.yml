@@ -1,0 +1,13 @@
+test_cases:
+- in: ccc02s2.1.in
+  out: ccc02s2.1.out
+  points: 10
+- in: ccc02s2.2.in
+  out: ccc02s2.2.out
+  points: 10
+- in: ccc02s2.3.in
+  out: ccc02s2.3.out
+  points: 10
+- in: ccc02s2.4.in
+  out: ccc02s2.4.out
+  points: 10

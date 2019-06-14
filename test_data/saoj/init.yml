@@ -1,0 +1,13 @@
+test_cases:
+- in: saoj.1.in
+  out: saoj.1.out
+  points: 10
+- in: saoj.2.in
+  out: saoj.2.out
+  points: 10
+- in: saoj.3.in
+  out: saoj.3.out
+  points: 10
+- in: saoj.4.in
+  out: saoj.4.out
+  points: 10

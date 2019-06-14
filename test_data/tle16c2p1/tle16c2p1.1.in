@@ -1,0 +1,6 @@
+5
+borrow 38
+borrow 10
+return 5
+borrow 5
+return 20

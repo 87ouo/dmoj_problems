@@ -1,0 +1,4 @@
+test_cases:
+- in: frimp.1.in
+  out: frimp.1.out
+  points: 10

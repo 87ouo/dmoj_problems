@@ -1,0 +1,4 @@
+test_cases:
+- in: modinv.1.in
+  out: modinv.1.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: denoun2.1.in
+  out: denoun2.1.out
+  points: 10

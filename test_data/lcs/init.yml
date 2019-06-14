@@ -1,0 +1,4 @@
+test_cases:
+- in: lcs.1.in
+  out: lcs.1.out
+  points: 10

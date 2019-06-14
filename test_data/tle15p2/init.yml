@@ -1,0 +1,10 @@
+test_cases:
+- in: tle15p2.1.in
+  out: tle15p2.1.out
+  points: 10
+- in: tle15p2.2.in
+  out: tle15p2.2.out
+  points: 10
+- in: tle15p2.3.in
+  out: tle15p2.3.out
+  points: 10

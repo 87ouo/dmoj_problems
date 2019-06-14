@@ -1,0 +1,146 @@
+[
+    {
+        "pk": 1,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Advanced Math",
+            "name": "Advanced Math"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Game Theory",
+            "name": "Game Theory"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Uncategorized",
+            "name": "Uncategorized"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Graph Theory",
+            "name": "Graph Theory"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Implementation",
+            "name": "Implementation"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Data Structures",
+            "name": "Data Structures"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Brute Force",
+            "name": "Brute Force"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Dynamic Programming",
+            "name": "Dynamic Programming"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Divide and Conquer",
+            "name": "Divide and Conquer"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "String Algorithms",
+            "name": "String Algorithms"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Regular Expressions",
+            "name": "Regular Expressions"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Geometry",
+            "name": "Geometry"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Simulation",
+            "name": "Simulation"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Simple Math",
+            "name": "Simple Math"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Greedy Algorithms",
+            "name": "Greedy Algorithms"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Ad Hoc",
+            "name": "Ad Hoc"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Intermediate Math",
+            "name": "Intermediate Math"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "judge.problemtype",
+        "fields": {
+            "full_name": "Recursion",
+            "name": "Recursion"
+        }
+    }
+]

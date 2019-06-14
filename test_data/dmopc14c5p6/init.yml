@@ -1,0 +1,19 @@
+test_cases:
+- in: dmopc14c5p6.1.in
+  out: dmopc14c5p6.1.out
+  points: 10
+- in: dmopc14c5p6.2.in
+  out: dmopc14c5p6.2.out
+  points: 10
+- in: dmopc14c5p6.3.in
+  out: dmopc14c5p6.3.out
+  points: 10
+- in: dmopc14c5p6.4.in
+  out: dmopc14c5p6.4.out
+  points: 10
+- in: dmopc14c5p6.5.in
+  out: dmopc14c5p6.5.out
+  points: 10
+- in: dmopc14c5p6.6.in
+  out: dmopc14c5p6.6.out
+  points: 10

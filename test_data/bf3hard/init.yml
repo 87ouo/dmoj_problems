@@ -1,0 +1,4 @@
+test_cases:
+- in: bf3hard.1.in
+  out: bf3hard.1.out
+  points: 10

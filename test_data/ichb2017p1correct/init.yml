@@ -1,0 +1,10 @@
+test_cases:
+- in: ichb2017p1correct.1.in
+  out: ichb2017p1correct.1.out
+  points: 10
+- in: ichb2017p1correct.2.in
+  out: ichb2017p1correct.2.out
+  points: 10
+- in: ichb2017p1correct.3.in
+  out: ichb2017p1correct.3.out
+  points: 10

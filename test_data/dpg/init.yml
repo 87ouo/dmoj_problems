@@ -1,0 +1,10 @@
+test_cases:
+- in: dpg.1.in
+  out: dpg.1.out
+  points: 10
+- in: dpg.2.in
+  out: dpg.2.out
+  points: 10
+- in: dpg.3.in
+  out: dpg.3.out
+  points: 10

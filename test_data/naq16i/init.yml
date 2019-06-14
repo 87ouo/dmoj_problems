@@ -1,0 +1,13 @@
+test_cases:
+- in: naq16i.1.in
+  out: naq16i.1.out
+  points: 10
+- in: naq16i.2.in
+  out: naq16i.2.out
+  points: 10
+- in: naq16i.3.in
+  out: naq16i.3.out
+  points: 10
+- in: naq16i.4.in
+  out: naq16i.4.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: 3drotate.1.in
+  out: 3drotate.1.out
+  points: 10

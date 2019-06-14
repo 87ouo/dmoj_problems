@@ -1,0 +1,4 @@
+test_cases:
+- in: gnyr12x.1.in
+  out: gnyr12x.1.out
+  points: 10

@@ -1,0 +1,7 @@
+test_cases:
+- in: mwc15c8p3.1.in
+  out: mwc15c8p3.1.out
+  points: 10
+- in: mwc15c8p3.2.in
+  out: mwc15c8p3.2.out
+  points: 10

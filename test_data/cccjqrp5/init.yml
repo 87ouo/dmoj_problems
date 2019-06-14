@@ -1,0 +1,7 @@
+test_cases:
+- in: cccjqrp5.1.in
+  out: cccjqrp5.1.out
+  points: 10
+- in: cccjqrp5.2.in
+  out: cccjqrp5.2.out
+  points: 10

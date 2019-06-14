@@ -1,0 +1,4 @@
+test_cases:
+- in: fhc17c0p2.1.in
+  out: fhc17c0p2.1.out
+  points: 10

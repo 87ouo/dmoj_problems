@@ -1,0 +1,4 @@
+test_cases:
+- in: tsoc16c2p5.1.in
+  out: tsoc16c2p5.1.out
+  points: 10

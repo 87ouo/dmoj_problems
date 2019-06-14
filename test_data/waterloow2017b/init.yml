@@ -1,0 +1,7 @@
+test_cases:
+- in: waterloow2017b.1.in
+  out: waterloow2017b.1.out
+  points: 10
+- in: waterloow2017b.2.in
+  out: waterloow2017b.2.out
+  points: 10

@@ -1,0 +1,7 @@
+test_cases:
+- in: coci09c1p4.1.in
+  out: coci09c1p4.1.out
+  points: 10
+- in: coci09c1p4.2.in
+  out: coci09c1p4.2.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: ioi98p4.1.in
+  out: ioi98p4.1.out
+  points: 10

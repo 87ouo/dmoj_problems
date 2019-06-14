@@ -1,0 +1,7 @@
+test_cases:
+- in: graph1.1.in
+  out: graph1.1.out
+  points: 10
+- in: graph1.2.in
+  out: graph1.2.out
+  points: 10

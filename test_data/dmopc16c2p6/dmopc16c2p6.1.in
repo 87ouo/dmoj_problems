@@ -1,0 +1,51 @@
+35
+0 usr
+1 home
+2 homespace
+3 desktop
+3 helper
+2 derringer
+3 games
+4 steam
+5 magico
+6 map
+7 part1.map
+7 part2.map
+6 exe
+7 steam_api.dll
+7 magico.exe
+5 europauniversalis4
+6 history
+7 data.txt
+6 map
+7 map.dat
+6 common
+3 nothere
+3 yarp
+0 system
+1 util
+2 lsgrepandcd
+3 nofiles
+2 gcc
+2 g++
+1 xgraphicssystem
+2 source
+2 binariesbin
+3 server.exe
+2 gource
+2 orrel
+cd usr
+cd home
+cd derringer
+ls
+ls -r
+ls | grep a
+ls -r | grep a
+cd games
+ls
+pwd
+cd ~/
+ls -r | grep \.exe$
+ls -r | grep ^g...
+ls -r | grep ^g..$
+exit

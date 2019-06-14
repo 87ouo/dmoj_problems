@@ -1,0 +1,10 @@
+test_cases:
+- in: notahocorasick.1.in
+  out: notahocorasick.1.out
+  points: 10
+- in: notahocorasick.2.in
+  out: notahocorasick.2.out
+  points: 10
+- in: notahocorasick.3.in
+  out: notahocorasick.3.out
+  points: 10

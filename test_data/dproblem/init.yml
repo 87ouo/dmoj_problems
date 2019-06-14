@@ -1,0 +1,7 @@
+test_cases:
+- in: dproblem.1.in
+  out: dproblem.1.out
+  points: 10
+- in: dproblem.2.in
+  out: dproblem.2.out
+  points: 10

@@ -1,0 +1,16 @@
+test_cases:
+- in: utso15p4.1.in
+  out: utso15p4.1.out
+  points: 10
+- in: utso15p4.2.in
+  out: utso15p4.2.out
+  points: 10
+- in: utso15p4.3.in
+  out: utso15p4.3.out
+  points: 10
+- in: utso15p4.4.in
+  out: utso15p4.4.out
+  points: 10
+- in: utso15p4.5.in
+  out: utso15p4.5.out
+  points: 10

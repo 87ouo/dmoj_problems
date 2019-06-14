@@ -1,0 +1,7 @@
+test_cases:
+- in: boolean.1.in
+  out: boolean.1.out
+  points: 10
+- in: boolean.2.in
+  out: boolean.2.out
+  points: 10

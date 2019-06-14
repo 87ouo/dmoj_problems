@@ -1,0 +1,7 @@
+test_cases:
+- in: bts18p4.1.in
+  out: bts18p4.1.out
+  points: 10
+- in: bts18p4.2.in
+  out: bts18p4.2.out
+  points: 10

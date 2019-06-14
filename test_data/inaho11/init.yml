@@ -1,0 +1,7 @@
+test_cases:
+- in: inaho11.1.in
+  out: inaho11.1.out
+  points: 10
+- in: inaho11.2.in
+  out: inaho11.2.out
+  points: 10

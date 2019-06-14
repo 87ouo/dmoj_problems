@@ -1,0 +1,4 @@
+test_cases:
+- in: piggy.1.in
+  out: piggy.1.out
+  points: 10

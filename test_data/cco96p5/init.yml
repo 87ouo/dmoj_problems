@@ -1,0 +1,4 @@
+test_cases:
+- in: cco96p5.1.in
+  out: cco96p5.1.out
+  points: 10

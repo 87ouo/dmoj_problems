@@ -1,0 +1,4 @@
+test_cases:
+- in: ichb2017p2.1.in
+  out: ichb2017p2.1.out
+  points: 10

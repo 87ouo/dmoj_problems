@@ -1,0 +1,4 @@
+test_cases:
+- in: ecoo17r3p4.1.in
+  out: ecoo17r3p4.1.out
+  points: 10

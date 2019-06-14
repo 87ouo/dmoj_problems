@@ -1,0 +1,4 @@
+test_cases:
+- in: acombiningproblem.1.in
+  out: acombiningproblem.1.out
+  points: 10

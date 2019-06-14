@@ -1,0 +1,7 @@
+test_cases:
+- in: hci16schecker.1.in
+  out: hci16schecker.1.out
+  points: 10
+- in: hci16schecker.2.in
+  out: hci16schecker.2.out
+  points: 10

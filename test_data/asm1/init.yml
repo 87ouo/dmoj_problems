@@ -1,0 +1,4 @@
+test_cases:
+- in: asm1.1.in
+  out: asm1.1.out
+  points: 10

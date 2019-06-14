@@ -1,0 +1,7 @@
+test_cases:
+- in: apio12p2.1.in
+  out: apio12p2.1.out
+  points: 10
+- in: apio12p2.2.in
+  out: apio12p2.2.out
+  points: 10

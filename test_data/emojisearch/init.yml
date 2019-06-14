@@ -1,0 +1,10 @@
+test_cases:
+- in: emojisearch.1.in
+  out: emojisearch.1.out
+  points: 10
+- in: emojisearch.2.in
+  out: emojisearch.2.out
+  points: 10
+- in: emojisearch.3.in
+  out: emojisearch.3.out
+  points: 10

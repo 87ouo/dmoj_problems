@@ -1,0 +1,4 @@
+test_cases:
+- in: mec16p4.1.in
+  out: mec16p4.1.out
+  points: 10

@@ -1,0 +1,7 @@
+test_cases:
+- in: set.1.in
+  out: set.1.out
+  points: 10
+- in: set.2.in
+  out: set.2.out
+  points: 10

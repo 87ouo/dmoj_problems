@@ -1,0 +1,4 @@
+test_cases:
+- in: boi2011p5.1.in
+  out: boi2011p5.1.out
+  points: 10

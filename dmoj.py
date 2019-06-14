@@ -9,6 +9,10 @@ from concurrent.futures import ThreadPoolExecutor
 import argparse
 import progressbar
 import logging
+import re
+import os
+import codecs
+import yaml
  
 class HTML2TextDmoj(html2text.HTML2Text):
     def __init__(self, out=None, baseurl=''):
@@ -114,6 +118,64 @@ def getproblemdetail(base_url, problem_code):
     "types": problem_info['types'], "user_count": 0}   
     return problem_info, problem
 
+def getrepeat(data):
+    result = []
+    i = len(data) - 2
+    while i >= 0:
+        if data[i][0] == data[i + 1][0]:
+            result.append((data[i], data[i + 1]))
+            del data[i + 1]             
+            del data[i]
+            i -= 2
+        else:
+            i -= 1
+    return result        
+    
+    
+def fix(problem_desc, inputs, outputs):
+    if len(inputs) == 0 and len(outputs) == 1 and len(re.findall(r'There is none.|There is no input.', problem_desc)) > 0:
+        inputs.append(('', ''))
+        return True
+    inputrepeat = getrepeat(inputs)
+    outputrepeat = getrepeat(outputs)
+    for repeat in inputrepeat + outputrepeat:
+        inputs.append(repeat[0])
+        outputs.append(repeat[1])
+    return len(inputs) == len(outputs)
+
+def gen_test_data_problem(problem):  
+    problem_desc = problem['fields']['description']
+    problem_code = problem['fields']['code']
+    inputs = re.findall(r"# ((?:Sample Input|Sample input|Input for Sample Input)(?: \d+)?)[^\n]*?\n( .*?|.{0})\n\n", problem_desc, flags=re.DOTALL)
+    outputs = re.findall(r"(?:# |\n)((?:Sample Output|Sample output|Output for Sample Input|Possible Output for Sample Input)(?: \d+)?)[^\n]*?\n( .*?|.{0})\n\n", problem_desc, flags=re.DOTALL)
+    if len(inputs) != len(outputs) and not fix(problem_desc, inputs, outputs):
+        logging.error("inputs num not equal to outputs:%s" % problem_code)      
+        return
+    if len(inputs) == 0:
+        logging.warning("test data empty:%s" % problem_code)
+        return
+    datadir = os.path.join("test_data", problem_code)
+    if not os.path.exists(datadir):
+        os.makedirs(datadir)
+    init = {}
+    init['test_cases'] = []
+    for i in range(0, len(inputs)):
+        input = inputs[i][1].strip()
+        input = re.sub(r'\n\s+', '\n', input)
+        output = outputs[i][1].strip()
+        output = re.sub(r'\n\s+', '\n', output)                
+        try:
+            infile = '%s.%d.in' % (problem_code, i + 1)
+            with codecs.open(os.path.join(datadir, infile), 'w', 'utf-8') as f:
+                f.write(input)
+            outfile = '%s.%d.out' % (problem_code, i + 1)
+            with codecs.open(os.path.join(datadir, outfile), 'w', 'utf-8') as f:
+                f.write(output)
+            init['test_cases'].append({'in': infile, 'out': outfile, 'points': 10})
+        except Exception as e:
+            logging.error("%s:%s" % (problem_code, e))
+    with open(os.path.join(datadir, "init.yml"), 'w', newline='') as f:
+        yaml.dump(init, f, line_break='\n')         
     
 def saveproblems(problemtypes, problemgroups, problems):
     problemtypes_json = []
@@ -136,16 +198,19 @@ def saveproblems(problemtypes, problemgroups, problems):
         problem['group'] = problemgroup_keys[problem['group']]
         for j in range(len(problem['types'])):
             problem['types'][j] = problemtype_keys[problem['types'][j]]
-        problems_json.append({"fields": problem, "model": "judge.problem", "pk": i})
+        problem_json = {"fields": problem, "model": "judge.problem", "pk": i}
+        problems_json.append(problem_json)
         i += 1
-    with open('problemtypes.json', 'w') as f:
+        gen_test_data_problem(problem_json)
+        
+    with open('problemtypes.json', 'w', newline='') as f:
         json.dump(problemtypes_json, f, indent=4)
-    with open('problemgroups.json', 'w') as f:
+    with open('problemgroups.json', 'w', newline='') as f:
         json.dump(problemgroups_json, f, indent=4)
-    with open('problems.json', 'w') as f:
+    with open('problems.json', 'w', newline='') as f:
         json.dump(problems_json, f, indent=4)   
 
-def getproblems(base_url, problem_code, task_num):
+def crawlproblems(base_url, problem_code, task_num):
     problem_codes = []
     if problem_code == "*":
         problem_list = getproblemlist(base_url)
@@ -180,7 +245,18 @@ def getproblems(base_url, problem_code, task_num):
         else:
             saveproblems(problemtypes, problemgroups, problems) 
             bar.finish()
+       
 
+def gen_test_data(problemspath):
+    with open(problemspath, 'r') as f:
+        try:
+            problems = json.load(f)
+            for problem in problems:
+                gen_test_data_problem(problem)
+        except Exception as e:
+            print(e)
+                
+                        
 def getloglevel(loglevel):
     return {'debug':logging.DEBUG,'info':logging.INFO,
     'warning':logging.WARNING,'error':logging.ERROR,'critical':logging.CRITICAL}[loglevel]
@@ -191,8 +267,12 @@ if __name__ == "__main__":
     parser.add_argument("--problem_code", "-c", help="Problem code to crawling, * for all", type=str, default="*")
     parser.add_argument("--task_num", "-n", help="Concurrent crawling of tasks", type=int, default=1)
     parser.add_argument("--log_level", "-l", help="log level", type=str, choices=['debug','info','warning','error','critical'], default='warning')
+    parser.add_argument("--test_data_only", "-t", help="test_data_only", action="store_true", default=False)
     args = parser.parse_args()
     logging.basicConfig(level=getloglevel(args.log_level))
-    getproblems(base_url, args.problem_code, args.task_num)
+    if args.test_data_only:
+        gen_test_data("problems.json")
+    else:
+        crawlproblems(base_url, args.problem_code, args.task_num)
     
     

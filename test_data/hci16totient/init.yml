@@ -1,0 +1,4 @@
+test_cases:
+- in: hci16totient.1.in
+  out: hci16totient.1.out
+  points: 10

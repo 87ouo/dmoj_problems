@@ -1,0 +1,7 @@
+test_cases:
+- in: lis.1.in
+  out: lis.1.out
+  points: 10
+- in: lis.2.in
+  out: lis.2.out
+  points: 10

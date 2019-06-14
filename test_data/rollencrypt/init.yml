@@ -1,0 +1,4 @@
+test_cases:
+- in: rollencrypt.1.in
+  out: rollencrypt.1.out
+  points: 10

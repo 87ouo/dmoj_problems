@@ -1,0 +1,4 @@
+test_cases:
+- in: hci16moana.1.in
+  out: hci16moana.1.out
+  points: 10

@@ -1,0 +1,7 @@
+test_cases:
+- in: cpc19c1p1.1.in
+  out: cpc19c1p1.1.out
+  points: 10
+- in: cpc19c1p1.2.in
+  out: cpc19c1p1.2.out
+  points: 10

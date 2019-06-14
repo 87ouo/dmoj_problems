@@ -1,0 +1,4 @@
+test_cases:
+- in: xor.1.in
+  out: xor.1.out
+  points: 10

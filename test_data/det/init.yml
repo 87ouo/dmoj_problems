@@ -1,0 +1,7 @@
+test_cases:
+- in: det.1.in
+  out: det.1.out
+  points: 10
+- in: det.2.in
+  out: det.2.out
+  points: 10

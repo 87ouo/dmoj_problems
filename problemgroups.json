@@ -1,0 +1,218 @@
+[
+    {
+        "pk": 1,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "JOI",
+            "name": "JOI"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "DMOPC",
+            "name": "DMOPC"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "VM7WC",
+            "name": "VM7WC"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "CEOI",
+            "name": "CEOI"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "GCJ",
+            "name": "GCJ"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "Data Structure Tests",
+            "name": "Data Structure Tests"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "DWITE",
+            "name": "DWITE"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "APIO",
+            "name": "APIO"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "BOI",
+            "name": "BOI"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "FHC",
+            "name": "FHC"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "MWC",
+            "name": "MWC"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "TLE",
+            "name": "TLE"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "ECOO",
+            "name": "ECOO"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "Bubble Cup",
+            "name": "Bubble Cup"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "COCI",
+            "name": "COCI"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "ACM-ICPC",
+            "name": "ACM-ICPC"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "Fun Math",
+            "name": "Fun Math"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "CCO",
+            "name": "CCO"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "SIUCF",
+            "name": "SIUCF"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "GFSSOC",
+            "name": "GFSSOC"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "Mock CCC",
+            "name": "Mock CCC"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "Seasonal",
+            "name": "Seasonal"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "CCC",
+            "name": "CCC"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "Classics",
+            "name": "Classics"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "Uncategorized",
+            "name": "Uncategorized"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "TSOC",
+            "name": "TSOC"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "judge.problemgroup",
+        "fields": {
+            "full_name": "IOI",
+            "name": "IOI"
+        }
+    }
+]

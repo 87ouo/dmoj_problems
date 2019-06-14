@@ -1,0 +1,4 @@
+test_cases:
+- in: expectedvalue.1.in
+  out: expectedvalue.1.out
+  points: 10

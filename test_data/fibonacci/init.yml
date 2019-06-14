@@ -1,0 +1,4 @@
+test_cases:
+- in: fibonacci.1.in
+  out: fibonacci.1.out
+  points: 10

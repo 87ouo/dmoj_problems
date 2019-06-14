@@ -1,0 +1,10 @@
+test_cases:
+- in: dpa.1.in
+  out: dpa.1.out
+  points: 10
+- in: dpa.2.in
+  out: dpa.2.out
+  points: 10
+- in: dpa.3.in
+  out: dpa.3.out
+  points: 10

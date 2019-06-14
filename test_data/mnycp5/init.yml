@@ -1,0 +1,4 @@
+test_cases:
+- in: mnycp5.1.in
+  out: mnycp5.1.out
+  points: 10

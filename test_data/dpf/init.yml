@@ -1,0 +1,13 @@
+test_cases:
+- in: dpf.1.in
+  out: dpf.1.out
+  points: 10
+- in: dpf.2.in
+  out: dpf.2.out
+  points: 10
+- in: dpf.3.in
+  out: dpf.3.out
+  points: 10
+- in: dpf.4.in
+  out: dpf.4.out
+  points: 10

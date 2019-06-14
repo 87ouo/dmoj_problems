@@ -1,0 +1,13 @@
+test_cases:
+- in: cco16p6.1.in
+  out: cco16p6.1.out
+  points: 10
+- in: cco16p6.2.in
+  out: cco16p6.2.out
+  points: 10
+- in: cco16p6.3.in
+  out: cco16p6.3.out
+  points: 10
+- in: cco16p6.4.in
+  out: cco16p6.4.out
+  points: 10

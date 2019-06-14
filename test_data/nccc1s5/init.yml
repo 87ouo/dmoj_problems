@@ -1,0 +1,10 @@
+test_cases:
+- in: nccc1s5.1.in
+  out: nccc1s5.1.out
+  points: 10
+- in: nccc1s5.2.in
+  out: nccc1s5.2.out
+  points: 10
+- in: nccc1s5.3.in
+  out: nccc1s5.3.out
+  points: 10

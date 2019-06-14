@@ -1,0 +1,4 @@
+test_cases:
+- in: thereturnofaplusb.1.in
+  out: thereturnofaplusb.1.out
+  points: 10

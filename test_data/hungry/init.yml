@@ -1,0 +1,7 @@
+test_cases:
+- in: hungry.1.in
+  out: hungry.1.out
+  points: 10
+- in: hungry.2.in
+  out: hungry.2.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: pickit.1.in
+  out: pickit.1.out
+  points: 10

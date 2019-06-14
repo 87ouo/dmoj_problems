@@ -1,0 +1,7 @@
+test_cases:
+- in: mockccc15s5.1.in
+  out: mockccc15s5.1.out
+  points: 10
+- in: mockccc15s5.2.in
+  out: mockccc15s5.2.out
+  points: 10

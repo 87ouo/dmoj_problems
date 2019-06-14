@@ -1,0 +1,4 @@
+test_cases:
+- in: tssm18c1p1.1.in
+  out: tssm18c1p1.1.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: next1.1.in
+  out: next1.1.out
+  points: 10

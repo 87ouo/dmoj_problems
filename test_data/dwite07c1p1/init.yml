@@ -1,0 +1,10 @@
+test_cases:
+- in: dwite07c1p1.1.in
+  out: dwite07c1p1.1.out
+  points: 10
+- in: dwite07c1p1.2.in
+  out: dwite07c1p1.2.out
+  points: 10
+- in: dwite07c1p1.3.in
+  out: dwite07c1p1.3.out
+  points: 10

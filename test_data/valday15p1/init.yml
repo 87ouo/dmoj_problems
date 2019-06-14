@@ -1,0 +1,4 @@
+test_cases:
+- in: valday15p1.1.in
+  out: valday15p1.1.out
+  points: 10

@@ -1,0 +1,7 @@
+test_cases:
+- in: sort1.1.in
+  out: sort1.1.out
+  points: 10
+- in: sort1.2.in
+  out: sort1.2.out
+  points: 10

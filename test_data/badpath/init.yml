@@ -1,0 +1,4 @@
+test_cases:
+- in: badpath.1.in
+  out: badpath.1.out
+  points: 10

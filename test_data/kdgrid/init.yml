@@ -1,0 +1,4 @@
+test_cases:
+- in: kdgrid.1.in
+  out: kdgrid.1.out
+  points: 10

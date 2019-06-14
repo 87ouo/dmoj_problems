@@ -1,0 +1,10 @@
+test_cases:
+- in: ecna16a.1.in
+  out: ecna16a.1.out
+  points: 10
+- in: ecna16a.2.in
+  out: ecna16a.2.out
+  points: 10
+- in: ecna16a.3.in
+  out: ecna16a.3.out
+  points: 10

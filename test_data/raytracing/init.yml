@@ -1,0 +1,7 @@
+test_cases:
+- in: raytracing.1.in
+  out: raytracing.1.out
+  points: 10
+- in: raytracing.2.in
+  out: raytracing.2.out
+  points: 10

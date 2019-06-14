@@ -1,0 +1,16 @@
+test_cases:
+- in: seq1.1.in
+  out: seq1.1.out
+  points: 10
+- in: seq1.2.in
+  out: seq1.2.out
+  points: 10
+- in: seq1.3.in
+  out: seq1.3.out
+  points: 10
+- in: seq1.4.in
+  out: seq1.4.out
+  points: 10
+- in: seq1.5.in
+  out: seq1.5.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: floydwarshall.1.in
+  out: floydwarshall.1.out
+  points: 10

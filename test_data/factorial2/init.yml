@@ -1,0 +1,4 @@
+test_cases:
+- in: factorial2.1.in
+  out: factorial2.1.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: utso18p4.1.in
+  out: utso18p4.1.out
+  points: 10

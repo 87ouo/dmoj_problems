@@ -1,0 +1,7 @@
+test_cases:
+- in: infinity.1.in
+  out: infinity.1.out
+  points: 10
+- in: infinity.2.in
+  out: infinity.2.out
+  points: 10

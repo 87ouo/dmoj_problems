@@ -1,0 +1,7 @@
+test_cases:
+- in: tss17a.1.in
+  out: tss17a.1.out
+  points: 10
+- in: tss17a.2.in
+  out: tss17a.2.out
+  points: 10

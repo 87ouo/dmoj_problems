@@ -1,0 +1,7 @@
+test_cases:
+- in: vmss7wc16c2p2.1.in
+  out: vmss7wc16c2p2.1.out
+  points: 10
+- in: vmss7wc16c2p2.2.in
+  out: vmss7wc16c2p2.2.out
+  points: 10

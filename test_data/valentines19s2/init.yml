@@ -1,0 +1,4 @@
+test_cases:
+- in: valentines19s2.1.in
+  out: valentines19s2.1.out
+  points: 10

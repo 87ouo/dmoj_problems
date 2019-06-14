@@ -1,0 +1,7 @@
+test_cases:
+- in: bsat.1.in
+  out: bsat.1.out
+  points: 10
+- in: bsat.2.in
+  out: bsat.2.out
+  points: 10

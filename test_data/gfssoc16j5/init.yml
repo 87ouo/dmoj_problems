@@ -1,0 +1,10 @@
+test_cases:
+- in: gfssoc16j5.1.in
+  out: gfssoc16j5.1.out
+  points: 10
+- in: gfssoc16j5.2.in
+  out: gfssoc16j5.2.out
+  points: 10
+- in: gfssoc16j5.3.in
+  out: gfssoc16j5.3.out
+  points: 10

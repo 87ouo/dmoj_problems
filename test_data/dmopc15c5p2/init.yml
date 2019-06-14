@@ -1,0 +1,4 @@
+test_cases:
+- in: dmopc15c5p2.1.in
+  out: dmopc15c5p2.1.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: cerc2000h.1.in
+  out: cerc2000h.1.out
+  points: 10

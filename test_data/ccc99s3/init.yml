@@ -1,0 +1,4 @@
+test_cases:
+- in: ccc99s3.1.in
+  out: ccc99s3.1.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: exe.1.in
+  out: exe.1.out
+  points: 10

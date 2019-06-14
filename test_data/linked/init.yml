@@ -1,0 +1,4 @@
+test_cases:
+- in: linked.1.in
+  out: linked.1.out
+  points: 10

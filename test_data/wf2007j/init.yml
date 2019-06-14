@@ -1,0 +1,7 @@
+test_cases:
+- in: wf2007j.1.in
+  out: wf2007j.1.out
+  points: 10
+- in: wf2007j.2.in
+  out: wf2007j.2.out
+  points: 10

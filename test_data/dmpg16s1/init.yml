@@ -1,0 +1,4 @@
+test_cases:
+- in: dmpg16s1.1.in
+  out: dmpg16s1.1.out
+  points: 10

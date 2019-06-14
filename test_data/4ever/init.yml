@@ -1,0 +1,7 @@
+test_cases:
+- in: 4ever.1.in
+  out: 4ever.1.out
+  points: 10
+- in: 4ever.2.in
+  out: 4ever.2.out
+  points: 10

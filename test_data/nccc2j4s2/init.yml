@@ -1,0 +1,4 @@
+test_cases:
+- in: nccc2j4s2.1.in
+  out: nccc2j4s2.1.out
+  points: 10

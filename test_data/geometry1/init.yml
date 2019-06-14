@@ -1,0 +1,4 @@
+test_cases:
+- in: geometry1.1.in
+  out: geometry1.1.out
+  points: 10

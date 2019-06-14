@@ -1,0 +1,7 @@
+test_cases:
+- in: ccoprep16c2q1.1.in
+  out: ccoprep16c2q1.1.out
+  points: 10
+- in: ccoprep16c2q1.2.in
+  out: ccoprep16c2q1.2.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: regex1.1.in
+  out: regex1.1.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: aplusb2.1.in
+  out: aplusb2.1.out
+  points: 10

@@ -1,0 +1,16 @@
+test_cases:
+- in: dpr.1.in
+  out: dpr.1.out
+  points: 10
+- in: dpr.2.in
+  out: dpr.2.out
+  points: 10
+- in: dpr.3.in
+  out: dpr.3.out
+  points: 10
+- in: dpr.4.in
+  out: dpr.4.out
+  points: 10
+- in: dpr.5.in
+  out: dpr.5.out
+  points: 10

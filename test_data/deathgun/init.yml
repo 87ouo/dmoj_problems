@@ -1,0 +1,4 @@
+test_cases:
+- in: deathgun.1.in
+  out: deathgun.1.out
+  points: 10

@@ -1,0 +1,7 @@
+test_cases:
+- in: halloween14p3.1.in
+  out: halloween14p3.1.out
+  points: 10
+- in: halloween14p3.2.in
+  out: halloween14p3.2.out
+  points: 10

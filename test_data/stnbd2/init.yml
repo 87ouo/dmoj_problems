@@ -1,0 +1,7 @@
+test_cases:
+- in: stnbd2.1.in
+  out: stnbd2.1.out
+  points: 10
+- in: stnbd2.2.in
+  out: stnbd2.2.out
+  points: 10

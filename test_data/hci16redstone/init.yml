@@ -1,0 +1,7 @@
+test_cases:
+- in: hci16redstone.1.in
+  out: hci16redstone.1.out
+  points: 10
+- in: hci16redstone.2.in
+  out: hci16redstone.2.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: pulse.1.in
+  out: pulse.1.out
+  points: 10

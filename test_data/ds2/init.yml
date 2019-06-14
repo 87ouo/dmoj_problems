@@ -1,0 +1,7 @@
+test_cases:
+- in: ds2.1.in
+  out: ds2.1.out
+  points: 10
+- in: ds2.2.in
+  out: ds2.2.out
+  points: 10

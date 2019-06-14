@@ -1,0 +1,7 @@
+test_cases:
+- in: coi08p2.1.in
+  out: coi08p2.1.out
+  points: 10
+- in: coi08p2.2.in
+  out: coi08p2.2.out
+  points: 10

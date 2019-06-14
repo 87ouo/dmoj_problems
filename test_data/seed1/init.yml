@@ -1,0 +1,7 @@
+test_cases:
+- in: seed1.1.in
+  out: seed1.1.out
+  points: 10
+- in: seed1.2.in
+  out: seed1.2.out
+  points: 10

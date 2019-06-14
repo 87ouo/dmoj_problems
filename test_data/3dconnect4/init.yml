@@ -1,0 +1,4 @@
+test_cases:
+- in: 3dconnect4.1.in
+  out: 3dconnect4.1.out
+  points: 10

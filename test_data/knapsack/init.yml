@@ -1,0 +1,7 @@
+test_cases:
+- in: knapsack.1.in
+  out: knapsack.1.out
+  points: 10
+- in: knapsack.2.in
+  out: knapsack.2.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: ccoprep1p2.1.in
+  out: ccoprep1p2.1.out
+  points: 10

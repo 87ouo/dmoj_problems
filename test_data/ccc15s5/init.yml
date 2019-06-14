@@ -1,0 +1,4 @@
+test_cases:
+- in: ccc15s5.1.in
+  out: ccc15s5.1.out
+  points: 10

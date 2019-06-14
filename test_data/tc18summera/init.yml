@@ -1,0 +1,4 @@
+test_cases:
+- in: tc18summera.1.in
+  out: tc18summera.1.out
+  points: 10

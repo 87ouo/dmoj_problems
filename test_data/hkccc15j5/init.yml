@@ -1,0 +1,10 @@
+test_cases:
+- in: hkccc15j5.1.in
+  out: hkccc15j5.1.out
+  points: 10
+- in: hkccc15j5.2.in
+  out: hkccc15j5.2.out
+  points: 10
+- in: hkccc15j5.3.in
+  out: hkccc15j5.3.out
+  points: 10

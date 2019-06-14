@@ -1,0 +1,4 @@
+test_cases:
+- in: ddrp6.1.in
+  out: ddrp6.1.out
+  points: 10

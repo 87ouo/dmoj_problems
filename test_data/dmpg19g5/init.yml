@@ -1,0 +1,4 @@
+test_cases:
+- in: dmpg19g5.1.in
+  out: dmpg19g5.1.out
+  points: 10

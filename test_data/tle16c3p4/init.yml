@@ -1,0 +1,7 @@
+test_cases:
+- in: tle16c3p4.1.in
+  out: tle16c3p4.1.out
+  points: 10
+- in: tle16c3p4.2.in
+  out: tle16c3p4.2.out
+  points: 10

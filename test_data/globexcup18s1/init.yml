@@ -1,0 +1,7 @@
+test_cases:
+- in: globexcup18s1.1.in
+  out: globexcup18s1.1.out
+  points: 10
+- in: globexcup18s1.2.in
+  out: globexcup18s1.2.out
+  points: 10

@@ -1,0 +1,7 @@
+test_cases:
+- in: prm.1.in
+  out: prm.1.out
+  points: 10
+- in: prm.2.in
+  out: prm.2.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: sweep.1.in
+  out: sweep.1.out
+  points: 10

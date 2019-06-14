@@ -1,0 +1,4 @@
+test_cases:
+- in: seq0.1.in
+  out: seq0.1.out
+  points: 10

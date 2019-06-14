@@ -1,0 +1,4 @@
+test_cases:
+- in: bf2.1.in
+  out: bf2.1.out
+  points: 10

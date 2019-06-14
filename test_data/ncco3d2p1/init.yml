@@ -1,0 +1,4 @@
+test_cases:
+- in: ncco3d2p1.1.in
+  out: ncco3d2p1.1.out
+  points: 10

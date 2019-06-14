@@ -1,0 +1,4 @@
+test_cases:
+- in: pegg.1.in
+  out: pegg.1.out
+  points: 10

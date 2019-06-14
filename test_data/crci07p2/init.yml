@@ -1,0 +1,7 @@
+test_cases:
+- in: crci07p2.1.in
+  out: crci07p2.1.out
+  points: 10
+- in: crci07p2.2.in
+  out: crci07p2.2.out
+  points: 10

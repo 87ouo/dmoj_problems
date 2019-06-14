@@ -1,0 +1,4 @@
+test_cases:
+- in: gcc16p2.1.in
+  out: gcc16p2.1.out
+  points: 10

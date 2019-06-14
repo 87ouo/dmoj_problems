@@ -1,0 +1,7 @@
+test_cases:
+- in: apsp.1.in
+  out: apsp.1.out
+  points: 10
+- in: apsp.2.in
+  out: apsp.2.out
+  points: 10

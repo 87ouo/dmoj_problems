@@ -1,0 +1,4 @@
+test_cases:
+- in: hci16xorpow.1.in
+  out: hci16xorpow.1.out
+  points: 10

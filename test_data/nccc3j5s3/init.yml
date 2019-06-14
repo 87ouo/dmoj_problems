@@ -1,0 +1,7 @@
+test_cases:
+- in: nccc3j5s3.1.in
+  out: nccc3j5s3.1.out
+  points: 10
+- in: nccc3j5s3.2.in
+  out: nccc3j5s3.2.out
+  points: 10

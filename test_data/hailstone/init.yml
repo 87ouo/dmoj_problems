@@ -1,0 +1,4 @@
+test_cases:
+- in: hailstone.1.in
+  out: hailstone.1.out
+  points: 10

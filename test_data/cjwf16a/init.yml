@@ -1,0 +1,4 @@
+test_cases:
+- in: cjwf16a.1.in
+  out: cjwf16a.1.out
+  points: 10

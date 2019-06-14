@@ -1,0 +1,7 @@
+test_cases:
+- in: postfix.1.in
+  out: postfix.1.out
+  points: 10
+- in: postfix.2.in
+  out: postfix.2.out
+  points: 10

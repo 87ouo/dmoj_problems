@@ -1,0 +1,7 @@
+test_cases:
+- in: dmpg18b4hard.1.in
+  out: dmpg18b4hard.1.out
+  points: 10
+- in: dmpg18b4hard.2.in
+  out: dmpg18b4hard.2.out
+  points: 10

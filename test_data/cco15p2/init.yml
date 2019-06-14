@@ -1,0 +1,4 @@
+test_cases:
+- in: cco15p2.1.in
+  out: cco15p2.1.out
+  points: 10

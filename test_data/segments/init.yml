@@ -1,0 +1,4 @@
+test_cases:
+- in: segments.1.in
+  out: segments.1.out
+  points: 10

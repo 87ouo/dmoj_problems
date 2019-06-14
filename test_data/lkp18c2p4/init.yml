@@ -1,0 +1,4 @@
+test_cases:
+- in: lkp18c2p4.1.in
+  out: lkp18c2p4.1.out
+  points: 10

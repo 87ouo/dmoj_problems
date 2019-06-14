@@ -1,0 +1,13 @@
+test_cases:
+- in: dpn.1.in
+  out: dpn.1.out
+  points: 10
+- in: dpn.2.in
+  out: dpn.2.out
+  points: 10
+- in: dpn.3.in
+  out: dpn.3.out
+  points: 10
+- in: dpn.4.in
+  out: dpn.4.out
+  points: 10

@@ -1,0 +1,4 @@
+test_cases:
+- in: sssp.1.in
+  out: sssp.1.out
+  points: 10

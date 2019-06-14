@@ -1,0 +1,19 @@
+test_cases:
+- in: dpk.1.in
+  out: dpk.1.out
+  points: 10
+- in: dpk.2.in
+  out: dpk.2.out
+  points: 10
+- in: dpk.3.in
+  out: dpk.3.out
+  points: 10
+- in: dpk.4.in
+  out: dpk.4.out
+  points: 10
+- in: dpk.5.in
+  out: dpk.5.out
+  points: 10
+- in: dpk.6.in
+  out: dpk.6.out
+  points: 10

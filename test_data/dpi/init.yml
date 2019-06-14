@@ -1,0 +1,10 @@
+test_cases:
+- in: dpi.1.in
+  out: dpi.1.out
+  points: 10
+- in: dpi.2.in
+  out: dpi.2.out
+  points: 10
+- in: dpi.3.in
+  out: dpi.3.out
+  points: 10

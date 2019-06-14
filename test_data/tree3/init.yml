@@ -1,0 +1,13 @@
+test_cases:
+- in: tree3.1.in
+  out: tree3.1.out
+  points: 10
+- in: tree3.2.in
+  out: tree3.2.out
+  points: 10
+- in: tree3.3.in
+  out: tree3.3.out
+  points: 10
+- in: tree3.4.in
+  out: tree3.4.out
+  points: 10

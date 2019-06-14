@@ -1,0 +1,4 @@
+test_cases:
+- in: bf1troll.1.in
+  out: bf1troll.1.out
+  points: 10

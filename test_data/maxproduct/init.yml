@@ -1,0 +1,7 @@
+test_cases:
+- in: maxproduct.1.in
+  out: maxproduct.1.out
+  points: 10
+- in: maxproduct.2.in
+  out: maxproduct.2.out
+  points: 10

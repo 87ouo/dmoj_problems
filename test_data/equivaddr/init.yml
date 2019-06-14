@@ -1,0 +1,4 @@
+test_cases:
+- in: equivaddr.1.in
+  out: equivaddr.1.out
+  points: 10

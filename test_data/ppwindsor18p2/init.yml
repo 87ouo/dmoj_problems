@@ -1,0 +1,7 @@
+test_cases:
+- in: ppwindsor18p2.1.in
+  out: ppwindsor18p2.1.out
+  points: 10
+- in: ppwindsor18p2.2.in
+  out: ppwindsor18p2.2.out
+  points: 10

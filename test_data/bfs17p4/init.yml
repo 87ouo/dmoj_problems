@@ -1,0 +1,7 @@
+test_cases:
+- in: bfs17p4.1.in
+  out: bfs17p4.1.out
+  points: 10
+- in: bfs17p4.2.in
+  out: bfs17p4.2.out
+  points: 10

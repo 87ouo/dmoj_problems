@@ -1,0 +1,4 @@
+test_cases:
+- in: ternarysearchtree.1.in
+  out: ternarysearchtree.1.out
+  points: 10

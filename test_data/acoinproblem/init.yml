@@ -1,0 +1,7 @@
+test_cases:
+- in: acoinproblem.1.in
+  out: acoinproblem.1.out
+  points: 10
+- in: acoinproblem.2.in
+  out: acoinproblem.2.out
+  points: 10

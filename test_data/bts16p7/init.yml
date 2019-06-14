@@ -1,0 +1,4 @@
+test_cases:
+- in: bts16p7.1.in
+  out: bts16p7.1.out
+  points: 10

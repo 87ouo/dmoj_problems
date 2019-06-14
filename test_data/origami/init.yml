@@ -1,0 +1,4 @@
+test_cases:
+- in: origami.1.in
+  out: origami.1.out
+  points: 10
